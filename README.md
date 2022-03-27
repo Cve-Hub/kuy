@@ -8,7 +8,7 @@ if game:GetService("RbxAnalyticsService"):GetClientId() ~= Old then
     while true do end
 end
 if HWID[table.find(HWID, Old)] == Old then
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/Cve-Hub/Cve-Hub-Mobiletest/main/README.md
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Cve-Hub/Cve-Hub-Mobiletest/main/README.md)()
 else
     setclipboard("HWID : "..tostring(Old))
     game.Players.LocalPlayer:Kick("Wrong Hwid Dm Admin!")
