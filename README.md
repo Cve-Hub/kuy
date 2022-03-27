@@ -1,7 +1,7 @@
 local HWID = {
     "211929af-1c97-4891-8e46-d77a65398653",
     "21c552fb-8f0a-479a-8a62-9166af19fdc6",
-    "1a2a1be4-c714-4d65-8091-510458d331ea"
+    "bb38624d-927f-45bc-a64a-081e1d82cbf1"
 }
 local Old = game:GetService("RbxAnalyticsService"):GetClientId()
 if game:GetService("RbxAnalyticsService"):GetClientId() ~= Old then 
