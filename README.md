@@ -17,13 +17,3 @@ else
 game:Shutdown()
 end
 
-local Keys = {
-    "i like hee"
-}
-
-if table.find(Keys,Key) then
-    print ("kuy")
-
-else game.Players.LocalPlayer:Kick("Wrong Keys : Kuy")
-    end
-    
